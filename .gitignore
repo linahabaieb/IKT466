@@ -1,0 +1,21 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+
+# PyCharm and macOS
+.idea/
+.DS_Store
+
+# Local datasets and model weights
+data/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.joblib
+*.pkl
